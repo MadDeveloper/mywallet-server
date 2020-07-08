@@ -1,0 +1,6 @@
+[submodule "api"]
+	path = api
+	url = git@github.com:MadDeveloper/mywallet-api.git
+[submodule "data-updater"]
+	path = data-updater
+	url = git@github.com:MadDeveloper/mywallet-data-updater.git

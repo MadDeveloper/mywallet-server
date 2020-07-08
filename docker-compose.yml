@@ -1,0 +1,12 @@
+version: '3'
+  services:
+    api:
+      build: ./mywallet-api
+      port:
+        - "4000:4000"
+    data-updater:
+      build: ./mywallet-data-updater
+    database:
+      image: mongo:4-bionic
+      port:
+        - "27017:27017"
